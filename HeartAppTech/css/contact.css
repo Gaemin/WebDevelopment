@@ -1,0 +1,51 @@
+fieldset{
+	border: 0;
+}
+fieldset h2{
+	color:#34485C;
+	padding: 10px;
+	font-size: 20px;
+
+}
+.contact_sheet{ float: left;}
+.contact_sheet p{ line-height: 22px;}
+
+button{
+	background: #6699FF; 
+	color: #fff; 
+	text-transform: uppercase; 
+	font-size: 10px;
+	padding: 7px 9px;
+	border: none; 
+	font-family: comic, sans-serif, georgia;
+}
+button:hover{
+	background: #3f4b51;
+	color: #fff;
+} 
+
+.contact_sheet form input, textarea{
+ 	background: #f7f7f7;
+ 	padding: 10px;
+ 	margin-bottom: 10px;
+ 	margin-left: 30px;
+ 	font-size: 14px;
+ 	border: 1px solid #ebebeb;
+ 	color: #b2b2b2;
+ 	font-family: comic, sans-serif;
+}
+.contact_sheet form, textarea, input{
+	padding: 10px 8px;
+}
+
+.contact_sheet p{
+    margin-bottom: 0;
+}
+.input-block {
+  display: block;
+  width: 50%;
+  min-height: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
