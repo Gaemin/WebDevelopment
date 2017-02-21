@@ -64,7 +64,9 @@ a:focus{
 	background-repeat: no-repeat;
 	color: #868686;
 }
-
+p.big {
+    line-height: 20px;
+}
 #tf-home .overlay{
 	
 	/* background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -114,15 +116,24 @@ a:focus{
 	font-weight: 700;
 	letter-spacing: 1px;
 }
-
+div.wiii{
+	font-family: times, normal;
+	font-size: 30px;
+	font-style: bold, normal;
+	color: #262626;
+}
+.noItalics{
+    font-style: normal;   
+}
 #tf-menu.navbar-default .navbar-nav > li > a:hover, 
 #tf-menu.navbar-default .navbar-nav > li > a:focus {
 	color: #DE3E40; 
+	font-style: normal;
 	background-color: transparent;
 }
 
 .logo {
-	font-family: 'Playball', cursive;
+	font-family: Times;
 }
 
 #tf-icons{
